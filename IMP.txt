@@ -1,6 +1,12 @@
 Create Repositly in Github :- 
 New -> Give name, Public/Private, give discription, Click create
-__________________________________________________________________________------
+Paste and run commands in vs code
+__________________________________________________________________________
+
+Push code in github :- 
+Click all Plus(+) button in source control
+
+__________________________________________________________________________
 
 
 Create and Run react project with vite
