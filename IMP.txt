@@ -5,6 +5,8 @@ __________________________________________________________________________
 
 Push code in github :- 
 Click all Plus(+) button in source control
+Give message and click commit
+click three dots and click push
 
 __________________________________________________________________________
 
