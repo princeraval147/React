@@ -18,7 +18,7 @@ npm run dev -> click on given link
 
 __________________________________________________________________________
 
-To get suggestion in React
+To get suggestion in React(JSX)
 Go to setting -> On top right corner click on open setting(json) button
 Open json file and paste that code -> 
 "emmet.includeLanguages": {
