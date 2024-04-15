@@ -14,7 +14,7 @@ __________________________________________________________________________
 Create and Run react project with vite
 npm create vite@latest
 npm install
-npm run dev -> click on given link
+npm run dev
 
 __________________________________________________________________________
 
