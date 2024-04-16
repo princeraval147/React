@@ -1,6 +1,6 @@
 Create Repositly in Github :- 
 New -> Give name, Public/Private, give discription, Click create
-Paste and run commands in vs code
+Paste commands in vs code Terminal
 
 __________________________________________________________________________
 
@@ -27,3 +27,13 @@ Open json file and paste that code ->
 
 __________________________________________________________________________
 
+Use Tailwind in App :-
+- Run these commands in Terminal
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init -p
+- Changes purge in 'tailwind.config.js' file
+purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+- paste these in 'index.css' file
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
