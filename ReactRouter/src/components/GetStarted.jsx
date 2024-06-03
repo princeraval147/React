@@ -14,9 +14,14 @@ const GetStarted = () => {
 
     const handlerSubmit = (e) => {
         e.preventDefault();
-        console.log(input)
-        localStorage.setItem("user", JSON.stringify(input))
-        Navigate('/login');
+        // console.log(input)
+        if (input.Pass === input.conPass) {
+            localStorage.setItem("user", JSON.stringify(input))
+            Navigate('/login');
+        } else {
+            alert("Conform password doesn't match");
+            document.getElementById('conPass').focus();
+        }
     }
 
     return (
@@ -69,6 +74,7 @@ const GetStarted = () => {
                                 })}
                                 value={input.conPass}
                                 type="password"
+                                id='conPass'
                                 required
                                 className="block border border-grey-light w-full p-3 rounded mb-4 focus:border-orange-500 focus:outline-none"
                                 name="conPass"
