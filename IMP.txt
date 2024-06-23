@@ -23,6 +23,18 @@ npm i react-router-dom
 
 __________________________________________________________________________
 
+Use Bootstrap In React App :- 
+npm i bootstrap
+Paste in index.html
+<link rel="stylesheet"
+          href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity=
+"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+          crossorigin="anonymous">
+
+__________________________________________________________________________
+
 To get suggestion in React(JSX)
 Go to setting -> On top right corner click on open setting(json) button
 Open json file and paste that code -> 
