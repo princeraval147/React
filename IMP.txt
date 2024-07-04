@@ -54,3 +54,12 @@ purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+__________________________________________________________________________
+
+Stop Facing Error While Server Can't get URL in(netlify) React :-
+- Create netlify.toml file and paste these code :
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
