@@ -63,3 +63,6 @@ Stop Facing Error While Server Can't get URL in(netlify) React :-
 from = "/*"
 to = "/index.html"
 status = 200
+
+Use Material UI in React :-
+npm install @mui/material @mui/styled-engine-sc styled-components
