@@ -9,7 +9,7 @@ git init
 git add .
 git commit -m "First Commit"
 git remote add origin https://github.com/princeraval147/React.git - Remote URL
-git push -u origin main
+git push -u origin master
 __________________________________________________________________________
 
 Push code in github :- 
