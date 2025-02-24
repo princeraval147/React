@@ -4,6 +4,14 @@ Paste commands in vs code Terminal
 
 __________________________________________________________________________
 
+Clone The Repositly :-
+git init
+git add .
+git commit -m "First Commit"
+git remote add origin https://github.com/princeraval147/React.git - Remote URL
+git push -u origin main
+__________________________________________________________________________
+
 Push code in github :- 
 Click all Plus(+) button in source control
 Give message and click commit
