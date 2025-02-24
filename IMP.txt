@@ -7,7 +7,6 @@ __________________________________________________________________________
 Clone The Repositly :-
  create a new repository on the command line
 git init
-<<<<<<< HEAD
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -18,12 +17,7 @@ git push -u origin main
 git remote add origin https://github.com/princeraval147/CourseZone.git
 git branch -M main
 git push -u origin main
-=======
-git add .
-git commit -m "First Commit"
-git remote add origin https://github.com/princeraval147/React.git - Remote URL
-git push -u origin master
->>>>>>> 2a56a7f16fff16d03d4e31a7591df6badd5d5ebb
+
 __________________________________________________________________________
 
 Push code in github :- 
