@@ -42,12 +42,10 @@ export class AuthService {
         } catch (error) {
             console.log("Appwrite serive :: getCurrentUser :: error", error);
         }
-
         return null;
     }
 
     async logout() {
-
         try {
             await this.account.deleteSessions();
         } catch (error) {
