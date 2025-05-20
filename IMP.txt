@@ -6,6 +6,7 @@ __________________________________________________________________________
 
 Clone The Repositly :-
  create a new repository on the command line
+ DO NOT check “Initialize with a README” (important!)
 git init
 git add README.md
 git commit -m "first commit"
