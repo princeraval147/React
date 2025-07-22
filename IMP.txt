@@ -4,6 +4,16 @@ Paste commands in vs code Terminal
 
 __________________________________________________________________________
 
+Start New Backend (Node + Express) :-
+mkdir backend
+cd backend
+npm init -y
+npm install express
+
+
+
+__________________________________________________________________________
+
 Clone The Repositly :-
  create a new repository on the command line
 git init
